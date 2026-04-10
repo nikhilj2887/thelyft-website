@@ -1,4 +1,60 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.thelyft.co" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "the-lyft.com" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.the-lyft.com" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "thelyft.in" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.thelyft.in" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "thelyft.co.in" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.thelyft.co.in" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "getthelyft.com" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.getthelyft.com" }],
+      "destination": "https://thelyft.co/$1",
+      "permanent": true
+    }
+  ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
